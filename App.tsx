@@ -13,6 +13,23 @@ import { EventRegister } from 'react-native-event-listeners';
 import themeContext from './config/themeContext';
 import theme from './config/theme';
 import { MyDarkNavTheme } from './interfaces';
+import {} from '@expo-google-fonts/jura';
+
+import {
+  useFonts,
+  Jura_400Regular,
+  Jura_500Medium,
+  Jura_600SemiBold,
+  Jura_700Bold,
+  RobotoMono_300Light,
+  RobotoMono_400Regular,
+  RobotoMono_600SemiBold,
+  RobotoMono_700Bold,
+  RobotoMono_400Regular_Italic,
+  RobotoMono_500Medium_Italic,
+  RobotoMono_600SemiBold_Italic,
+  RobotoMono_700Bold_Italic
+} from '@expo-google-fonts/dev';
 
 export default function App() {
   const [mode, setMode] = useState(false);
